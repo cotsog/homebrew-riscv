@@ -1,6 +1,8 @@
 language: objective-c
 # should give access to mac osx 10.10.4
 osx_image: xcode7
+# try containers to see if get more resources
+sudo: false
 
 script:
   - sysctl -n hw.ncpu
